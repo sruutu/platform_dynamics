@@ -1,0 +1,129 @@
+{UTF-8}
+End users  = A FUNCTION OF( Value to End Users)
+	~	
+	~		|
+
+Accumulated Data  = A FUNCTION OF( End users)
+	~	
+	~		|
+
+Competitive Effort  = A FUNCTION OF( End users)
+	~	
+	~		|
+
+Service Providers  = A FUNCTION OF( Value to Service Providers)
+	~	
+	~		|
+
+Platform Development  = A FUNCTION OF( Competitive Effort,Platform Revenue)
+	~	
+	~		|
+
+Platform Revenue  = A FUNCTION OF( End users)
+	~	
+	~		|
+
+Value to End Users  = A FUNCTION OF( Accumulated Data,Platform Development,Service Providers\
+		)
+	~	
+	~		|
+
+Value to Service Providers  = A FUNCTION OF( End users)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Arial|10|B|0-0-0|0-0-0|0-0-0|-1--1--1|-1--1--1|120,120,100,0
+10,1,End users,379,281,41,11,0,131,0,0,0,0,0,0
+10,2,Service Providers,689,457,40,19,8,131,0,0,0,0,0,0
+10,3,Value to Service Providers,402,474,65,19,8,3,0,0,0,0,0,0
+1,4,3,2,1,0,43,12,10,128,0,-1--1--1,|12|B|0-0-0,1|(510,530)|
+1,5,1,3,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(341,385)|
+10,6,Value to End Users,718,325,52,19,8,3,0,0,0,0,0,0
+1,7,2,6,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(720,390)|
+1,8,6,1,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(475,285)|
+10,9,Accumulated Data,416,381,53,19,8,3,0,0,0,0,0,0
+1,10,1,9,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(387,324)|
+1,11,9,6,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(651,378)|
+10,12,Platform Revenue,518,221,36,19,8,131,0,0,0,0,0,0
+1,13,1,12,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(431,252)|
+10,14,Platform Development,627,135,54,19,8,3,0,0,0,0,0,0
+1,15,12,14,1,0,43,12,10,128,0,-1--1--1,|12|B|0-0-0,1|(548,184)|
+1,16,14,6,1,0,43,12,8,128,0,-1--1--1,|12|B|0-0-0,1|(719,253)|
+12,17,0,559,441,20,20,4,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|8||0-0-0
+R3
+12,18,0,559,482,51,18,8,7,0,10,-1,0,0,0,-1--1--1,0-0-0,|8|I|0-0-255
+Cross-side network effect
+12,19,0,523,321,20,20,5,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|8||0-0-0
+R2
+12,20,0,523,365,47,18,8,7,0,10,-1,0,0,0,-1--1--1,0-0-0,|8|I|0-0-255
+Data network effect
+12,21,0,627,217,20,20,5,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|8||0-0-0
+R1
+12,22,0,627,261,45,18,8,135,0,10,-1,0,0,0,-1--1--1,0-0-0,|8|I|0-0-255
+Platform development
+11,23,0,549,204,1,21,6,131,0,0,1,0,0,0
+10,24,Competitive Effort,357,162,48,19,8,131,0,0,0,0,0,0
+1,25,1,24,1,0,45,12,11,128,0,255-0-0,|12||-1--1--1,1|(351,210)|
+1,26,24,14,1,0,43,12,8,128,0,-1--1--1,|12||0-0-0,1|(492,94)|
+12,27,0,445,140,20,20,5,7,0,8,-1,0,0,0,-1--1--1,0-0-0,|8||0-0-0
+B1
+12,28,0,445,182,42,19,8,135,0,10,-1,0,0,0,-1--1--1,0-0-0,|8|I|0-0-255
+Competitive effort
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Tasks,Task
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Service Providers
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:1
+24:0
+25:0
+26:0
